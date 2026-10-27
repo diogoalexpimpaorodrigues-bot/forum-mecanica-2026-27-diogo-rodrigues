@@ -2,7 +2,11 @@
 
 Uma WebApp de recrutamento com Django, React e SQLite. Cria uma conta sem email, resolve desafios de engenharia, recebe pontos e troca-os por brindes ilustrativos. A carteira, o histórico e a identificação da conta persistem no servidor.
 
-**Projeto desenvolvido com auxílio substancial de IA
+**Responsável pelo projeto: Diogo Rodrigues.**
+
+O projeto foi desenvolvido com auxílio substancial de IA, incluindo apoio à conceção, implementação, testes e documentação, conforme registado em [AI_USAGE.md](AI_USAGE.md). A responsabilidade pelo projeto não equivale a uma declaração de autoria exclusivamente humana.
+
+Esta cópia deriva de [forum-mecanica-2026-27](https://github.com/diogoalexpimpaorodrigues-bot/forum-mecanica-2026-27) e preserva o histórico e as atribuições existentes. Consulta [CRÉDITOS E PROVENIÊNCIA](CREDITOS.md).
 
 **Versão 5 — instalação automática.** Inclui arranque nativo para Windows, macOS e Linux. Mantém o logótipo fornecido pelo utilizador, a interface azul e todas as funcionalidades do passaporte. Consulta [as decisões da interface](docs/INTERFACE.md).
 
@@ -217,3 +221,4 @@ O símbolo do Fórum é o PNG fornecido pelo utilizador, preservado sem alteraç
 - [Guia para compreender o código](docs/GUIA_DE_LEITURA.md)
 - [Relatório de testes](docs/TESTES.md)
 - [Reconhecimento de IA](AI_USAGE.md)
+
