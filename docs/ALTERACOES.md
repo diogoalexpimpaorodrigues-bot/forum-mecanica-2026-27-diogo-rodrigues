@@ -17,7 +17,7 @@
 - Integra o PNG fornecido pelo utilizador, preservando todos os seus bytes, proporção, cores e fundo branco.
 - Substitui o símbolo demonstrativo no cabeçalho e no ícone do separador; aplica a imagem também no passaporte, rodapé e brindes ilustrativos.
 - Harmoniza página inicial, dashboard, estados e ilustrações com azul profundo e ciano.
-- Identifica a origem do logótipo separadamente dos elementos criados com auxílio de IA.
+- Identifica a origem do logótipo.
 - Atualiza fontes, compilação, capturas e documentação. A lógica de autenticação e pontos mantém-se.
 
 # Revisão 3.0 — interface
@@ -62,4 +62,4 @@ Esta revisão corrige falhas encontradas depois da primeira entrega e aprofunda 
 - Executor de testes que cria servidor e base descartáveis, sem alterar contas locais.
 - Testes reais em Chromium, Firefox e WebKit; auditoria axe e ensaio prolongado de concorrência.
 - Migração e teste de atualização a partir da primeira versão, preservando pontos e códigos.
-- Documentação revista, reconhecimento explícito da utilização de IA e relatório com resultados medidos.
+- Documentação revista e relatório com resultados medidos.

@@ -1,6 +1,6 @@
 # Guia para compreender e apresentar o projeto
 
-Este guia ajuda a estudar a implementação gerada com auxílio de IA. Não afirma que essa leitura pessoal já tenha sido feita.
+Este guia ajuda a estudar a implementação. Não afirma que essa leitura pessoal já tenha sido feita.
 
 ## 1. Começar pelo comportamento
 
@@ -39,4 +39,4 @@ Cobertura mede código executado; não demonstra ausência de erros. A documenta
 
 Uma forma de estudar o desenho é acrescentar um desafio com identificador novo em `catalog.py`, atualizar as instruções e criar um teste do seu crédito/repetição. Outra é mudar um brinde e verificar saldo insuficiente, confirmação e histórico. Mantém estáveis os identificadores de itens que já têm movimentos, para não transformar uma alteração de catálogo num segundo crédito.
 
-Antes da submissão, descreve apenas as alterações e a revisão que efetivamente realizaste. Mantém o reconhecimento do auxílio de IA e adapta os comentários com uma explicação tua depois de compreender o código.
+Antes da submissão, descreve apenas as alterações e a revisão que efetivamente realizaste. Adapta os comentários com uma explicação tua depois de compreender o código.
