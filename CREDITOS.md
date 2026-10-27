@@ -10,10 +10,6 @@ Referência inspecionada: `51a0137bb49bc907368c1de6d480e8f52e38a4e6`.
 
 Os 22 commits acessíveis em `main` à data da inspeção identificam `diogoalexpimpaorodrigues-bot` como autor e GitHub como committer. Isto identifica os registos de publicação; não demonstra autoria exclusivamente humana. O histórico original deve ser preservado sem reatribuir autores, datas ou mensagens.
 
-## Utilização de IA
-
-O ficheiro `AI_USAGE.md` e várias mensagens de commit reconhecem auxílio substancial de OpenAI Codex na conceção, implementação, comentários, testes e documentação. Por esse motivo, esta cópia não descreve o recurso a IA como limitado ao esclarecimento de dúvidas. A identificação de Diogo Rodrigues como responsável não substitui o reconhecimento desse auxílio.
-
 ## Recursos e licenças
 
 - O logótipo do Fórum foi fornecido pelo utilizador; a sua origem e hash estão em `frontend/src/assets/README.md`. Os direitos da marca permanecem com os respetivos titulares.

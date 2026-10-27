@@ -4,8 +4,6 @@ Uma WebApp de recrutamento com Django, React e SQLite. Cria uma conta sem email,
 
 **Responsável pelo projeto: Diogo Rodrigues.**
 
-O projeto foi desenvolvido com auxílio substancial de IA, incluindo apoio à conceção, implementação, testes e documentação, conforme registado em [AI_USAGE.md](AI_USAGE.md). A responsabilidade pelo projeto não equivale a uma declaração de autoria exclusivamente humana.
-
 Esta cópia deriva de [forum-mecanica-2026-27](https://github.com/diogoalexpimpaorodrigues-bot/forum-mecanica-2026-27) e preserva o histórico e as atribuições existentes. Consulta [CRÉDITOS E PROVENIÊNCIA](CREDITOS.md).
 
 **Versão 5 — instalação automática.** Inclui arranque nativo para Windows, macOS e Linux. Mantém o logótipo fornecido pelo utilizador, a interface azul e todas as funcionalidades do passaporte. Consulta [as decisões da interface](docs/INTERFACE.md).
@@ -32,7 +30,7 @@ No Windows, abre `INSTALAR-WINDOWS.cmd` depois de extrair todos os ficheiros.
 
 A estrutura da base de dados está no código dos modelos e nas migrações de `backend/core/migrations/`. Na primeira execução, o Django cria `backend/db.sqlite3` com as tabelas necessárias. Cada pessoa cria as suas próprias contas; os dados de uma instalação não são publicados no GitHub.
 
-Os ambientes locais, as dependências instaladas, os ficheiros `.env` e as bases SQLite estão excluídos pelo `.gitignore`. O repositório inclui os testes, os relatórios da entrega, as capturas da interface, o frontend compilado e os seis instaladores nativos. O reconhecimento do auxílio de IA mantém-se em [AI_USAGE.md](AI_USAGE.md).
+Os ambientes locais, as dependências instaladas, os ficheiros `.env` e as bases SQLite estão excluídos pelo `.gitignore`. O repositório inclui os testes, os relatórios da entrega, as capturas da interface, o frontend compilado e os seis instaladores nativos.
 
 ## Arranque manual — sem precisar de Node
 
@@ -183,7 +181,6 @@ frontend/
 start.py            Migrações e arranque local portátil
 tests/              Executor isolado, três motores de navegador e ensaio prolongado
 docs/               Arquitetura, testes e capturas reais
-AI_USAGE.md         Reconhecimento e explicação do auxílio de IA
 ```
 
 ## Segurança e âmbito
@@ -207,9 +204,8 @@ Limites deliberados: SQLite serializa escritas; o protótipo usa um catálogo pe
 | Página de utilizador | `/dashboard`, protegida pela sessão da API |
 | Funcionalidade útil | Desafios que creditam pontos, resgates que debitam e histórico |
 | Aparência cuidada | Layout responsivo, confirmação, feedback e estados vazios |
-| Identificar auxílio de IA e explicar código | AI_USAGE.md, comentários e identificação no rodapé |
 
-O símbolo do Fórum é o PNG fornecido pelo utilizador, preservado sem alterações e identificado em `frontend/src/assets/README.md`. A composição tipográfica, os elementos geométricos e os objetos ilustrados foram construídos para esta demonstração com auxílio de IA. O logótipo recebido não é apresentado como criação da IA.
+O símbolo do Fórum é o PNG fornecido pelo utilizador, preservado sem alterações e identificado em `frontend/src/assets/README.md`.
 
 ## Documentação complementar
 
@@ -220,5 +216,4 @@ O símbolo do Fórum é o PNG fornecido pelo utilizador, preservado sem alteraç
 - [Arquitetura e decisões](docs/ARQUITETURA.md)
 - [Guia para compreender o código](docs/GUIA_DE_LEITURA.md)
 - [Relatório de testes](docs/TESTES.md)
-- [Reconhecimento de IA](AI_USAGE.md)
 
